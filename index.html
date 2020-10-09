@@ -24,10 +24,45 @@
       crossorigin="anonymous"
     />
 
+    <link rel="stylesheet" href="style.css" />
+
     <title>Loja</title>
   </head>
   <body>
-    <h1>Loja</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" id="Titulo">LojaWillians</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Página Inicial <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catálogo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categorias
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Feminina</a>
+                <a class="dropdown-item" href="#">Masculina</a>
+                <a class="dropdown-item" href="#">Infantil</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Esporte</a>
+              </div>
+            </li>
+           </ul>
+          <div class="form-inline my-2 my-lg-0 text-white badge-pill">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+        </div>
+      </nav>
+
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -36,9 +71,9 @@
               <h5>Calça</h5>
             </div>
 
-            <div class="card-body">
+            <div class="card-body text-center">
               <img
-                class="card-img"
+                class="card-img imagem-mostruario"
                 src="https://st3.depositphotos.com/12985848/19144/i/1600/depositphotos_191442504-stock-photo-partial-view-family-jeans-standing.jpg"
               />
 
@@ -68,9 +103,9 @@
               <h5>Calça2</h5>
             </div>
 
-            <div class="card-body">
+            <div class="card-body text-center">
               <img
-                class="card-img"
+                class="card-img imagem-mostruario"
                 src="https://st4.depositphotos.com/13193658/21708/i/1600/depositphotos_217081354-stock-photo-cropped-image-plumber-lying-floor.jpg"
               />
 
